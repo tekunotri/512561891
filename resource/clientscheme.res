@@ -8678,7 +8678,7 @@ Scheme
 		}
 		"23"
 		{
-			"font" "resource/fonts/Imagine Font.ttf"
+			"font" "resource/fonts/imagine_font.ttf"
 			"name" "Imagine Font"
 		}
 		"11"
