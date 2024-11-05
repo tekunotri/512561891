@@ -768,7 +768,15 @@ Scheme
 				"yres"    	"1001 10000"
 				"outline"   "1"
 			}
+			"5"
+			{
+				"name"		"Surface-Medium"
+        		"tall"      "9"
+        		"antialias" "1"
+				"outline"   "1"
+			}
      }
+	 
 		"DefaultNumber"
 		{
       "1"
@@ -848,6 +856,12 @@ Scheme
         "antialias" "1"
 				"yres"	"1001 10000"
 			}
+			      "5"
+      {
+				"name"		"Surface-Medium"
+        		"tall"      "9"
+        		"antialias" "1"
+			}
      }
 
 		"Default"
@@ -905,7 +919,7 @@ Scheme
 			"5"
 			{
 				"name"		"Novecentowide-Medium"
-				"tall"		"20"
+				"tall"		"9"
 				"antialias"	"1"
 			}
 			"6"
@@ -979,7 +993,7 @@ Scheme
 			"5"
 			{
 				"name"		"Novecentowide-Medium"
-				"tall"		"28"
+				"tall"		"18"
 				"antialias" 	"1"
 			}
 			"6"
@@ -1049,7 +1063,7 @@ Scheme
 			"5"
 			{
 				"name"		"Novecentowide-Medium"
-				"tall"		"22"
+				"tall"		"12"
 				"antialias" 	"1"
 			}
 		}
@@ -3045,7 +3059,7 @@ Scheme
 			"5"
 			{
 				"name"		"Novecentowide-Medium"
-				"tall"		"48"
+				"tall"		"24"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -3114,13 +3128,23 @@ Scheme
 		}
 		"HudFontMediumSecondary"
 		{
-			"1"
-			{
-				"name"		"Novecentowide-Medium"
-				"tall"		"22"
-				"additive"	"0"
-				"antialias" "1"
-			}
+            "1"
+            {
+                "name"        "Novecentowide-Medium"
+                "tall"        "24"
+                "weight"    "500"
+                "yres"        "1 1199"
+                "additive"    "0"
+                "antialias" "1"
+            }
+            "2" 
+            {
+                "name"        "Novecentowide-Medium"
+                "tall"        "10"
+                "weight"    "500"
+                "additive"    "0"
+                "antialias" "1"
+            }
 		}
 		"HudFontMediumBold"
 		{
